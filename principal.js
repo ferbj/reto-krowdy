@@ -4,7 +4,7 @@ import Cortar from './cortar/index';
 import Rutas from './capturar/index'
 import moldear from './moldear/index';
 import uploadS3 from './upload/index';
-import sendmail from './mail/index';
+import sendmail from './mail/mail';
 async function initProcess() {
    
    try {
