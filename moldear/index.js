@@ -105,6 +105,7 @@ function moldear() {
             .duration(20)
             .videoCodec('libx264')
             .audioCodec('libmp3lame')
+            .audioChannels(2)
             .format('mp4')
             .complexFilter(complexFilter, 'base6')
             .save('./files/mosaico/' + file1)
