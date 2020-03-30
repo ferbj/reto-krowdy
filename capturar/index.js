@@ -5,7 +5,7 @@ function Rutas() {
 
     return new Promise((resolve, reject) => {
         const directoryPath = path.join(__dirname, '../ruta/')
-
+        console.log('directorypath', directoryPath)
         fs.readdir(directoryPath, function (err, files) {
             if (err) return console.log(err)
 

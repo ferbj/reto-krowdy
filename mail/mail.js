@@ -5,14 +5,14 @@ function sendmail(){
     let mailTransporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-        user: 'youremail@gmail.com',
+        user: 'ferbj200@gmail.com',
         pass: process.env.pass
     }
 });
 
 let mailDetails = {
-    from: 'youremail@gmail.com',
-    to: 'email1@gmail.com,email2@gmail.com',
+    from: 'ferbj200@gmail.com',
+    to: 'ferbj200@gmail.com',
     subject: 'Test email',
     html: `<a href="https://scontent.flim13-1.fna.fbcdn.net/v/t1.0-9/87984454_636736270499319_8331165904792453120_o.jpg?_nc_cat=108&_nc_sid=a61e81&_nc_ohc=KZ5ucwJVLvEAX_HO3xc&_nc_ht=scontent.flim13-1.fna&oh=613922d162910f622bf9679f4615317e&oe=5EB9A191"></a>
                   <img src="http://api.qrserver.com/v1/create-qr-code/?data=48177445&size=500x500" alt="Código QR" height="300" width="300">
