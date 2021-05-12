@@ -19,6 +19,6 @@
     "dotenv": "^8.2.0",
     "ffmpeg": "0.0.4",
     "fluent-ffmpeg": "^2.1.2",
-    "nodemailer": "^6.4.3"
+    "nodemailer": "^6.4.16"
   }
 }
